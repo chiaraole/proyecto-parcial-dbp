@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://phantom-telva.unidadeditorial.es/8ddd9ae1e37ad87e4f066c4a1130aa24/crop/0x844/2047x1995/resize/640/assets/multimedia/imagenes/2021/09/26/16326083566813.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none; /* Remueve el subrayado */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40%;
+    padding: 130px  50px; /* Ajustamos el padding para mover el texto y los botones hacia abajo */
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-box {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons button {
+    display: block;
+    width: 80%;
+    padding: 25px 0;
+    margin: 15px 0;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
